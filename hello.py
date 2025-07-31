@@ -4,7 +4,7 @@ import numpy as np
 st.write("Graph")
 x=pd.DataFrame(
   np.random.randn(20, 3),
-  coloumns["a", "b", "c"]
+  columns["a", "b", "c"]
   
 )
 st.line_chart(x)
