@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 st.write("Graph")
-x=pd.read_csv("Bitcoin Historical Data.csv")
-st.write(x)
+x=pd.DataFrame("Bitcoin Historical Data.csv")
+st.line_chart(x)
