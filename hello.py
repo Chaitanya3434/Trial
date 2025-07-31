@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 st.write("Graph")
 x=pd.DataFrame(
-  np.random.radn(20, 3),
+  np.random.randn(20, 3),
   coloumns["a", "b", "c"]
   
 )
